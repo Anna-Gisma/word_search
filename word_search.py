@@ -17,7 +17,7 @@ def WordSearch(lenn, s, subs):
                 ind = i+1
                 c += 1
             if c == 0:
-                ind = i + 2
+                ind = i + 1
         a_str = ''.join(a)
         l_str.append(a_str)
     
